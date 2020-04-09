@@ -1,0 +1,42 @@
+name: oddoma
+author: Vasja Lebar
+version: 1.0.3+20
+description: A oddomaplace mobile & web app
+environment: 
+  sdk: '>=2.1.0 <3.0.0'
+dependencies: 
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.0
+  firebase_auth: ^0.15.5+3
+  cloud_firestore: ^0.13.4+2
+  cloud_firestore_mocks: ^0.4.2
+  firebase_analytics: ^5.0.2
+  geoflutterfire: ^2.1.0
+  bloc: ^3.0.0
+  flutter_bloc: ^3.2.0
+  bloc_test: ^4.0.0
+  equatable: ^1.1.1
+  json_annotation: ^3.0.1
+  json_serializable: ^3.2.5
+  geolocator: ^5.3.0
+  url_launcher: ^5.4.2
+  flutter_xlider: ^3.2.0
+  flutter: 
+    sdk: flutter
+dev_dependencies: 
+  flutter_launcher_icons: ^0.7.3
+  build_runner: ^1.8.0
+  built_value_generator: ^7.0.9
+  flutter_test: 
+    sdk: flutter
+flutter_icons: 
+  android: launcher_icon
+  image_path_android: assets/icons/icon_android.png
+  image_path_ios: assets/icons/icon_ios.png
+  ios: true
+flutter: 
+  assets: 
+    - assets/png/auth_page.png
+    - assets/png/loading_bottom.png
+    - assets/png/loading_center.png
+  uses-material-design: true
